@@ -52,6 +52,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 80px;
 }
 
 .container_text {
@@ -96,7 +97,7 @@ body {
     justify-content: center;
     gap: 16px;
     color: var(--cor-secundaria);
-    width: 480px;
+    width: 50%;
     text-align: center;
     text-decoration: none;
     border-radius: 16px;
@@ -128,6 +129,29 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) /*and (max-width: 1250px)*/ {
+    .header {
+        padding: 6%;
+    }
+
+    .header_menu {
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .container_text {
+        width: 100%;
+    }
+
+    .container_text_links_link {
+        width: 200px;
+    }
 }
 
 /*@media screen and (min-width: 600px) and (max-width: 1250px) {

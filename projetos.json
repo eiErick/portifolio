@@ -1,0 +1,29 @@
+[
+    {
+        "titulo": "Calculadora",
+        "subTitulo": "Uma calculadora web",
+        "tecnologias": "HTML 5, CSS 3, JAVASCRIPT",
+        "linkSite": "https://eierick.github.io/calculator",
+        "linkGithub": "http://github.com/eierick/calculator",
+        "imagem": "http://127.0.0.1:5500/assets/calculator.png",
+        "alt": "imagem de web site de Calculadora"
+    },
+    {
+        "titulo": "Color game",
+        "subTitulo": "Um Jogo de advinhação de cores",
+        "tecnologias": "HTML 5, CSS 3, JAVASCRIPT",
+        "linkSite": "https://eierick.github.io/calculator",
+        "linkGithub": "http://github.com/eierick/color-game",
+        "imagem": "http://127.0.0.1:5500/assets/color-game.png",
+        "alt": "imagem de web site de um jogo de cores"
+    },
+    {
+        "titulo": "Stop Watch",
+        "subTitulo": "Um Cronômeto Web",
+        "tecnologias": "HTML 5, CSS 3, JAVASCRIPT",
+        "linkSite": "https://eierick.github.io/color-game/",
+        "linkGithub": "http://github.com/eierick/color-game",
+        "imagem": "http://127.0.0.1:5500/assets/stopwatch.png",
+        "alt": "imagem de web site de cronêmetro"
+    }
+]

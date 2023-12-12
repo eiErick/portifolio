@@ -5,7 +5,7 @@
         "tecnologias": "HTML 5, CSS 3, JAVASCRIPT",
         "linkSite": "https://eierick.github.io/calculator",
         "linkGithub": "http://github.com/eierick/calculator",
-        "imagem": "http://127.0.0.1:5500/assets/calculator.png",
+        "imagem": "https://eierick.github.io/portifolio/assets/calculator.png",
         "alt": "imagem de web site de Calculadora"
     },
     {
@@ -14,7 +14,7 @@
         "tecnologias": "HTML 5, CSS 3, JAVASCRIPT",
         "linkSite": "https://eierick.github.io/calculator",
         "linkGithub": "http://github.com/eierick/color-game",
-        "imagem": "http://127.0.0.1:5500/assets/color-game.png",
+        "imagem": "https://eierick.github.io/portifolio/assets/color-game.png",
         "alt": "imagem de web site de um jogo de cores"
     },
     {
@@ -23,7 +23,7 @@
         "tecnologias": "HTML 5, CSS 3, JAVASCRIPT",
         "linkSite": "https://eierick.github.io/color-game/",
         "linkGithub": "http://github.com/eierick/color-game",
-        "imagem": "http://127.0.0.1:5500/assets/stopwatch.png",
+        "imagem": "https://eierick.github.io/portifolio/assets/stopwatch.png",
         "alt": "imagem de web site de cronêmetro"
     }
 ]

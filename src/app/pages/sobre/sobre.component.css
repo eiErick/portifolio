@@ -1,0 +1,60 @@
+.sobre {
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.sobre .img, .sobre .description {
+    max-width: 500px;
+}
+
+.sobre .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre .description h2 {
+    font-size: 36px;
+    text-align: justify;
+    color: var(--blue);
+}
+
+.sobre .description p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.sobre .description h4 {
+    font-size: 28px;
+    text-align: justify;
+    color: var(--blue);
+}
+
+.sobre .blue {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.sobre .description a {
+    color: var(--blue);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sobre .description ul {
+    font-size: 22px;
+}
+
+.home .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

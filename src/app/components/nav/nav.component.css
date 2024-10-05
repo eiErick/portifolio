@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: var(--bg-color);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    transition: .2s;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: var(--bg-transparent-color);
+}
+
+@media (max-width: 420px) {
+    .nav {
+        gap: 0px;
+    }
+    
+    .nav a {
+        padding: 4px;
+    }
+}

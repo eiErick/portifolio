@@ -1,0 +1,40 @@
+.tecnologias {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.tecnologias .img, .tecnologias .description {
+    max-width: 500px;
+}
+
+.tecnologias .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tecnologias .description h2 {
+    font-size: 36px;
+    text-align: justify;
+    color: var(--blue);
+}
+
+.tecnologias .description ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.home .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,60 @@
+.home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.home .img, .home .description {
+    max-width: 500px;
+}
+
+.home .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.home .description h3 {
+    font-size: 36px;
+    text-align: justify;
+}
+
+.home .description h3 {
+    font-size: 36px;
+    text-align: justify;
+}
+
+.home .description p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.home .description h4 {
+    font-size: 28px;
+}
+
+.home .description span {
+    color: var(--blue);
+}
+
+.home .description a {
+    gap: 10px;
+    padding: 15px 40px;
+    width: 150px;
+}
+
+.home .description a img {
+    width: 25px;
+}
+
+.home .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

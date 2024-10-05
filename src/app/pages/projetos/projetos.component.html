@@ -1,0 +1,7 @@
+<div class="projetos">
+    <div class="container">
+        @for (project of projects; track $index) {
+            <app-container-projetos [img]="project.img" [name]="project.name" [description]="project.description" [technology]="project.technology" [link]="project.link" [github]="project.github"/>
+        }
+    </div>
+</div>

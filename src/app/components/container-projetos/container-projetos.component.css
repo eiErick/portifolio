@@ -1,0 +1,37 @@
+.container-projetos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    background-color: #ffffff11;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 260px;
+    height: 600px;
+    transition: .2s;
+}
+
+.container-projetos img {
+    border-radius: 8px;
+    width: 240px;
+}
+
+.container-projetos h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container-projetos .buttons {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.container-projetos .buttons a {
+    gap: 10px;
+}
+
+.container-projetos .buttons a img {
+    width: 15px;
+}
